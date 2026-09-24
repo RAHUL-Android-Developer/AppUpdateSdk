@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--    update -versionActivity-->
+    <color name="btnScroll">#004181</color>
+    <color name="scrollBar_icon">#61a4f2</color>
+    <color name="textlog">#bcdeff</color>
+    <color name="black_1">#161c2a</color>
+    <color name="black_2">#1a2332</color>
+    <color name="splash_color">#f4fbfe</color>
+
+    <color name="gray_light">#BDBDBD</color>   <!-- light gray -->
+    <color name="gray_medium">#9E9E9E</color> <!-- medium gray -->
+    <color name="gray_dark">#616161</color>   <!-- dark gray -->
+    <color name="card_icon_color">#063ca7</color>
+
+</resources>

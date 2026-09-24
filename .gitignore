@@ -1,0 +1,14 @@
+.gradle/
+.idea/
+build/
+**/build/
+
+local.properties
+google-services.json
+
+*.jks
+*.keystore
+*.pem
+*.p12
+
+.DS_Store

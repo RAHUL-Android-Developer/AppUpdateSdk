@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_progress_dialog"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/progress_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Downloading Update"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/progress_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please wait while the update is being downloaded."
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0%"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:progress="0"
+        android:max="100"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/progress_drawable"
+        android:backgroundTint="@android:color/darker_gray" />
+
+
+    <Button
+        android:id="@+id/btn_cancel_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp" />
+
+</LinearLayout>
